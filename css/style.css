@@ -1,0 +1,97 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+/* --------------- */
+
+*{
+	color: blue;
+}
+
+a{
+	color: greenyellow;
+}
+
+span {
+	color: yellow;
+}
+
+.centertext p{
+	color: teal;
+}
+
+.topp + p{
+	color: tomato;
+}
+
+.centerspi h2{
+	color: orange;
+}
+
+h2 {
+	color: chartreuse;
+}
+
+.centerspi a{
+	color: aquamarine;
+}
+#id1{
+	color: darkgreen;
+}
+
+.centername p,
+.centername li{
+	color: blueviolet;
+}
+
+.centerhar .centerp{
+	color: green;
+}
+.centerp.centerp2{
+	color: yellowgreen;
+}
+
+.centerhar p{
+	color: yellow;
+}
+
+.harspi li{
+	color: green;
+}
+.centerbud > span{
+	color: green;
+}
+
+.h2centerhud ~ *{
+	color: pink;
+}
+.h2centerhud{
+	color: red;
+}
